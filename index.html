@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>All For One</title>
+</head>
+<body class="bg-[url('/Assets/background.jpeg')] bg-cover bg-no-repeat">
+    <div id="popup" class="hidden grid grid-cols-12 fixed mt-17 box-border">
+        <div class="bg-[#242424] col-span-10  col-start-3 bg-cover rounded-[50px] text-white ">
+            <div id="closeBtn" class="mt-4 ml-4">
+                <img src="./Assets/X.png" alt="Close">
+            </div>
+            <div class=" pl-25 pr-25 pb-20 grid gap-10 box-border">
+                <div class="flex justify-between">
+                    <p class="hover:border-4 rounded-[10px] text-center text-[40px]">Hello World</p>
+                    <p class="hover:border-4 rounded-[10px] text-center text-[40px]">Adding 2 Numbers</p>
+                </div>
+                <div class="flex justify-between gap-40">
+                    <p class="hover:border-4 rounded-[10px] text-center text-[40px]">Asking Questions</p>
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">Greater or Less</p>
+                </div>
+                <div class="flex justify-between ">
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">Madlib</p>
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">Odd or Even</p>
+                </div>
+                <div class="flex justify-between ">
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">Magic 8 Ball</p>
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">Restaurant Picker</p>
+                </div>
+                <div class="flex justify-between ">
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">ReverseIt <br> (alphaNumeric)</p>
+                    <p class="hover:border-4 rounded-[5px] text-center text-[40px]">reverse it <br> (numbersOnly)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="flex justify-center text-[250px] text-white text-center">ALL FOR ONE</p>
+    <div class="flex justify-center">
+        <p id="GamesBtn" class="text-white text-center text-[25px] border-5 rounded-[50px] w-64"> Games</p>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>

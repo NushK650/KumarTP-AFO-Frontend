@@ -1,0 +1,9 @@
+@font-face {
+    font-family: brush;
+    src: url(/Assets/Grindy\ Brush.otf);
+}
+
+body{
+    
+    font-family: "brush",Arial, Helvetica, sans-serif;
+}
