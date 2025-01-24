@@ -743,11 +743,17 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
   .mt-17 {
     margin-top: calc(var(--spacing) * 17);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-25 {
+    margin-top: calc(var(--spacing) * 25);
   }
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
@@ -911,6 +917,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -920,8 +929,29 @@
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
+  .w-15 {
+    width: calc(var(--spacing) * 15);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+  .w-50 {
+    width: calc(var(--spacing) * 50);
+  }
   .w-64 {
     width: calc(var(--spacing) * 64);
+  }
+  .w-125 {
+    width: calc(var(--spacing) * 125);
+  }
+  .w-150 {
+    width: calc(var(--spacing) * 150);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
   }
   .w-full {
     width: 100%;
@@ -1516,11 +1546,17 @@
   .rounded-\[25px\] {
     border-radius: 25px;
   }
+  .rounded-\[30px\] {
+    border-radius: 30px;
+  }
   .rounded-\[50p\] {
     border-radius: 50p;
   }
   .rounded-\[50px\] {
     border-radius: 50px;
+  }
+  .rounded-\[px\] {
+    border-radius: px;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -2023,17 +2059,23 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
-  .text-\[25px\] {
-    font-size: 25px;
-  }
-  .text-\[40px\] {
-    font-size: 40px;
-  }
   .text-\[100px\] {
     font-size: 100px;
   }
   .text-\[250px\] {
     font-size: 250px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
+  .text-\[50px\] {
+    font-size: 50px;
   }
   .leading-6 {
     --tw-leading: calc(var(--spacing) * 6);
@@ -2131,6 +2173,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-black {
     color: var(--color-black);
