@@ -22,14 +22,6 @@ async function getComputerChoice(UserInput) {
 input.addEventListener("keydown", async (event) => {
   if (event.key === "Enter") {
     const userInput = input.value.trim();
-
-    
-    if (isNaN(userInput)) {
-      alert("Please enter a valid number.");
-      input.value = ""; 
-      return;
-    }
-    
     const apiResponse =  await getComputerChoice(userInput);
     playAgain.classList.remove("hidden");
     input.classList.add("hidden");
