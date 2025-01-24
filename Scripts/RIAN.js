@@ -9,7 +9,7 @@ const originalText = centerText.innerText;
 
 async function getComputerChoice(UserInput) {
     try {
-      const response = await fetch(`https://kumartc-allforone-byf7akcedfckc0dh.westus-01.azurewebsites.net/OddOrEven/OddOrEven/${UserInput}`); // Replace this URL with your actual API endpoint
+      const response = await fetch(`https://kumartc-allforone-byf7akcedfckc0dh.westus-01.azurewebsites.net/ReverseItAN/ReverseItAN/${UserInput}`); // Replace this URL with your actual API endpoint
       const data = await response.text();
       return data; 
     } catch (error) {
