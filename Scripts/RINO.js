@@ -24,7 +24,7 @@ input.addEventListener("keydown", async (event) => {
       const userInput = input.value.trim();
 
     if (isNaN(userInput)) {
-        alert("Please enter a valid number.");
+      centerText.innerText="Please enter valid response";
         input.value = ""; 
         return;
       }

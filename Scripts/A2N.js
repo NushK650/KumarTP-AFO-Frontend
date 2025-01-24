@@ -13,7 +13,7 @@ let input1Value = '';
 
 async function getComputerChoice(UserInput, UserInput2) {
     try {
-      const response = await fetch(`https://kumartc-allforone-byf7akcedfckc0dh.westus-01.azurewebsites.net/Greetings/greetings/${UserInput}/${UserInput2}`); // Replace this URL with your actual API endpoint
+      const response = await fetch(`https://kumartc-allforone-byf7akcedfckc0dh.westus-01.azurewebsites.net/Add2Numbers/Add2Numbers/${UserInput}/${UserInput2}`); // Replace this URL with your actual API endpoint
       const data = await response.text();
       return data; 
     } catch (error) {
@@ -25,10 +25,17 @@ async function getComputerChoice(UserInput, UserInput2) {
 
 input.addEventListener("keydown", async (event) => {
   if (event.key === "Enter") {
-  input1Value = input.value.trim()
+  input1Value = input.value.trim();
+
+  if (isNaN(input1Value)) {
+    centerText.innerText="Please enter valid response";
+    input.value = ""; 
+    return;
+  }
+
     input.classList.add("hidden");
-    input2.classList.remove("hidden")
-    centerText.innerText = "what time did you wake up?";
+    input2.classList.remove("hidden");
+    centerText.innerText = "Give me another number";
     input.value = "";
 
 }
