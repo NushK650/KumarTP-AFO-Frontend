@@ -3,7 +3,7 @@ const popup = document.getElementById("popup")
 const closeBtn = document.getElementById("closeBtn")
 
 gamesBtn.addEventListener("click", ()=>{
-popup.classList.toggle("hidden");
+popup.classList.remove("hidden");
 
 });
 
