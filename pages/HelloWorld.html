@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../styles/styles.css" />
     <title>Hello World</title>
   </head>
-  <body class="bg-[url('/Assets/background.jpeg')] bg-cover ">
+  <body class="bg-[url('/Assets/background.jpeg')] bg-cover min-h-screen bg-no-repeat ">
     <div id="popup" class="hidden fixed inset-0 place-items-center">
       <div class="bg-[#242424] mt-17 rounded-[50px] text-white">
         <div id="closeBtn" class="mt-10 ml-5">
@@ -90,17 +90,17 @@
       </div>
     </div>
     <div class=" flex items-center justify-between">
-      <p class="text-white text-center flex-grow pl-40">Hello World</p>
+      <p class="text-white text-center flex-grow pl-40 pr-10">Hello World</p>
 
-      <img id="GamesBtn" class="text-end" src="../Assets/Home ButtonD.png" alt="Home Button" />
+      <img id="GamesBtn" class="text-end w-[80px] md:w-[142px]" src="../Assets/Home ButtonD.png" alt="Home Button" />
     </div>
 
-    <h1  id="centerText" class=  " text-white md:text-[80px] text-[50px] lg:text-[100px] text-center mt-40">Whats your name? </h1>
+    <h1  id="centerText" class=  " text-white md:text-[80px] text-[50px] sm:text-[60px] lg:text-[100px] text-center mt-40">Whats your name? </h1>
 
     <div class="flex justify-center mt-50">
       <input class="border-4 border-black bg-white rounded-[25px]  h-15 text-[25px]" id="input" type="text" placeholder="Input..." />
     </div>
-<div class=" flex justify-center ">
+<div class="flex justify-center">
 
   <button id="playAgain" class=" hidden text-black text-[25px] pl-10 pr-10 border-4 border-black bg-white rounded-[50px] h-20 ">Play Again</button>
 </div>
