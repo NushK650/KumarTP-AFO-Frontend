@@ -2844,6 +2844,11 @@
       font-size: 30px;
     }
   }
+  .sm\:text-\[40px\] {
+    @media (width >= 40rem) {
+      font-size: 40px;
+    }
+  }
   .sm\:text-\[60px\] {
     @media (width >= 40rem) {
       font-size: 60px;
