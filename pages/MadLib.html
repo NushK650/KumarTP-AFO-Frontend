@@ -92,19 +92,21 @@
     <div class=" flex items-center justify-between"> 
       <p class="text-white text-center flex-grow pl-40 pr-10">MadLib </p>
 
-      <img id="GamesBtn" class="text-end" src="../Assets/Home ButtonD.png" alt="Home Button" />
+      <img id="GamesBtn" class="text-end w-[80px] md:w-[142px]" src="../Assets/Home ButtonD.png" alt="Home Button" />
     </div>
 
     <h1  id="centerText" class=" hidden text-white md:text-[40px] text-[25px] sm:text-[30px] lg:text-[50px] text-center mt-40"></h1>
 
-    <div class="flex justify-evenly mt-30">
-      <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-125 text-[30px]" id="input" type="text" placeholder="Name: " />
-      <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-125 text-[30px]" id="input2" type="text" placeholder="Place:" />
-    </div>
-    <div class="flex justify-evenly mt-50" >
-      <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-125 text-[30px]" id="input3" type="text" placeholder="Adjective: " />
-      <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-125 text-[30px]" id="input4" type="text" placeholder="Activity: " />
-    </div>
+
+  <div class="flex flex-col lg:flex-row justify-center items-center lg:justify-evenly gap-5 mt-30">
+    <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-80 sm:w-125 text-[30px]" id="input" type="text" placeholder="Name: " />
+    <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-80 sm:w-125 text-[30px]" id="input2" type="text" placeholder="Place:" />
+  </div>
+  <div class="flex flex-col lg:flex-row justify-center items-center lg:justify-evenly gap-5 mt-10" >
+    <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-80 sm:w-125 text-[30px]" id="input3" type="text" placeholder="Adjective: " />
+    <input class="border-4 border-black bg-white rounded-[25px]  h-20 w-80 sm:w-125 text-[30px]" id="input4" type="text" placeholder="Activity: " />
+  </div>
+
 <div class=" flex justify-center ">
   <button id="playAgain" class=" hidden text-black text-[25px] pl-10 pr-10 border-4 border-black bg-white rounded-[50px] h-20 ">Play Again</button>
   <button id="Go" class="mt-40 text-black text-[25px] pl-10 pr-10 border-4 border-black bg-white rounded-[50px] h-20 w-50 ">Go</button>
